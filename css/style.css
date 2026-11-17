@@ -1,1 +1,16 @@
-/* Här skrivs all din CSS */
+body {
+background-color: #50BE6E;
+}
+ div{
+display: grid;
+grid-template-columns: 15% 1fr 1fr 1fr;
+gap: 10px;
+margin: 20px;
+
+grid-template-areas: 
+"he he"
+"as nav"
+"as sec1 sec2 sec3.";
+
+
+}
