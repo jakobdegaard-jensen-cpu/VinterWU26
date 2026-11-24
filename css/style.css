@@ -12,5 +12,20 @@ grid-template-areas:
 "as nav"
 "as sec1 sec2 sec3.";
 
-
+}
+header{
+    grid-area: he he;
+    background-color: rgb(156, 26, 26);
+    height: 1fr;
+    border-width:1fr;
+}
+nav{
+    grid-area: as nav;
+    color: blue;
+    background-color: blueviolet;
+}
+nav2{
+    grid-area: as sec1 sec2 sec3;
+    color: azure;
+    background-color: bisque;
 }
